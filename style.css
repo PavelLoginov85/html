@@ -1,0 +1,123 @@
+.box
+{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1800px;
+
+}
+
+.header
+{
+    height: 150px;
+    background-color: rgb(204, 175, 139);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notFirstproject
+{
+    color: #35a6b9;
+
+}
+
+.mainText
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.link_head
+{
+    text-decoration: none;
+    color: yellow;
+
+}
+
+.headerLinks
+{
+    background-color: lightblue;
+    width: 100%;
+
+}
+.headerList
+{
+    display: flex;
+    justify-content: space-around;
+}
+.lists
+{
+    color: green
+}
+.content
+{
+    width: 100%;
+    display: flex;
+
+}
+
+.contentblock1
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #35a6b9;
+}
+
+.contentblock2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #53b64a;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.chapter
+{
+    color: azure;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.textinfo
+{
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+.forimg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img
+{
+    border: 2px solid;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin: 1%;
+    max-height: 90%;
+}
+
+.footer
+{
+    height: 150px;
+    background-color: rgb(204, 175, 139)
+}
+
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}

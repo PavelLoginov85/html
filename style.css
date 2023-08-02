@@ -22,6 +22,11 @@
 
 }
 
+.notFirstproject:hover
+{
+    color: #e0e7df;
+    transition: 0.4s;
+}
 .mainText
 {
     display: flex;
@@ -34,7 +39,10 @@
     color: yellow;
 
 }
-
+.link_head:hover
+{
+    color: rgb(0, 17, 255);
+}
 .headerLinks
 {
     background-color: lightblue;
@@ -47,9 +55,17 @@
     justify-content: space-around;
 }
 .lists
-{
+{  
+    font-size: 14px;
     color: green
 }
+
+.lists:hover
+{
+ color: rgb(0, 17, 255);
+
+}
+
 .content
 {
     width: 100%;
@@ -80,11 +96,43 @@
     justify-content: space-between;
 
 }
+
+.bunntos
+{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.bb
+{
+    height: auto;
+    padding: 2%;
+    width: 40%;
+    background-color:antiquewhite;
+    color: #0a5f6e;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+} 
+
+.bb:hover
+{
+    color: antiquewhite;
+    background-color: #0a5f6e;
+    transition: 0.4s;
+
+}
 .chapter
 {
     color: azure;
     margin-right: 2%;
     margin-left: 2%;
+}
+
+.h2change
+{
+    color: blue;
+
 }
 .textinfo
 {
@@ -111,13 +159,13 @@
 .footer
 {
     height: 150px;
-    background-color: rgb(204, 175, 139)
-}
-
-
-.footer
-{
+    background-color: rgb(204, 175, 139);
     display: flex;
     justify-content: space-around;
-    align-items: start;
+    align-items: center;
+}
+
+.footerText
+{
+    font-size: 25px;
 }
